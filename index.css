@@ -1,0 +1,56 @@
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:500px;
+    height:400px;
+    
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:500px;
+    height:400px;
+    
+}
+#input-box{
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    border: black 1px solid;
+    padding: 5px 0px 5px 400px;
+    background-color:#135fbd;
+}
+#input-box input{
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    color: white;
+    background: #262d48;
+    border: none;
+}
+#input-box button{
+    height: 20px;
+    border-radius: 3px;
+    color: white;
+    background: #262d48;
+    border: none;
+}
+#input-box button:hover{
+    cursor: pointer;
+}
+#output-box{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #262d48;
+}
+#container{
+    color: white;
+    margin-left: 40px;
+    height: 150px;
+    padding: 20px;
+}
